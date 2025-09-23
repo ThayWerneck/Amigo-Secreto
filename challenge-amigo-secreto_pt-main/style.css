@@ -160,3 +160,34 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Padroniza fonte das listas e títulos */
+.name-list,
+.result-text,
+.section-title,
+h3 {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Resultado azul igual ao <h2> */
+.result-text {
+    font-weight: bold;
+    color: #1a73e8; /* mesmo azul do h2 */
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Botão "Próximo" simples mas consistente */
+.button-next {
+    padding: 8px 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.button-next:hover {
+    background-color: #45a049;
+}
